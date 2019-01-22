@@ -25,3 +25,18 @@ chmod +x ./build.sh
 ./build.sh [ADMIN EMAIL]
 ```
 
+### Starting the website
+
+```
+# Go to
+http://localhost:8080
+
+# Go to dashboard
+http://localhost:8080/wp-admin
+```
+
+### Default WordPress admin credentials
+
+* **Username:** admin
+* **Password** admin
+* **Email:** variable at build
