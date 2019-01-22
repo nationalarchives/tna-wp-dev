@@ -6,6 +6,10 @@ A Docker WordPress development environment for TNA.
 * [MariaDB](https://mariadb.org/)
 * [WP CLI](https://wp-cli.org/)
 
+### Requirements
+
+To run a Docker environment, you will need [Docker](https://www.docker.com/get-started).
+
 ### Getting started
 
 The Docker environment and a set of tools for theme development. To quickly get started, you can simply run the following:
