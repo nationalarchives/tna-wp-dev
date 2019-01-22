@@ -40,3 +40,9 @@ http://localhost:8080/wp-admin
 * **Username:** admin
 * **Password** admin
 * **Email:** variable at build
+
+### Using wp-cli
+
+```bach
+docker-compose run --rm wp-cli plugin install <some-plugin>
+```
