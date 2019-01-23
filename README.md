@@ -39,7 +39,7 @@ http://localhost:8080/wp-admin
 
 * **Username:** admin
 * **Password** admin
-* **Email:** variable at build
+* **Email:** email address entered at run build
 
 ### Using wp-cli
 
