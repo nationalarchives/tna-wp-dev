@@ -14,7 +14,7 @@ To run a Docker environment, you will need [Docker](https://www.docker.com/get-s
 
 The Docker environment and a set of tools for theme development. To quickly get started, you can simply run the following:
 
-```
+```bash
 # Copy the files
 git clone https://github.com/nationalarchives/tna-wp-dev.git
 
@@ -27,7 +27,7 @@ chmod +x ./build.sh
 
 ### Starting the website
 
-```
+```bash
 # Go to
 http://localhost:8080
 
@@ -53,7 +53,7 @@ APP_PORT=8080
 
 ### Using wp-cli
 
-```bach
+```bash
 # Install a plugin
 docker-compose run --rm wp-cli plugin install <some-plugin>
 
