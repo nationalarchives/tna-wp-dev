@@ -35,6 +35,16 @@ http://localhost:8080
 http://localhost:8080/wp-admin
 ```
 
+### Defining ports
+
+At default, port 8080 is used for the WordPress installation and port 8081 for the database. You may change the ports by editing the `.env` file:
+
+```bash
+# Edit port variables
+DB_PORT=8081
+APP_PORT=8080
+```
+
 ### Default WordPress admin credentials
 
 * **Username:** admin
@@ -44,5 +54,25 @@ http://localhost:8080/wp-admin
 ### Using wp-cli
 
 ```bach
+# Install a plugin
 docker-compose run --rm wp-cli plugin install <some-plugin>
+
+# Import a database
+docker-compose run --rm wp-cli db import <sql-db-export>
+```
+
+### Useful Docker commands
+
+```bash
+# View running containers
+docker ps
+
+# View images
+docker images
+
+# Stop running containers
+docker-compose kill
+
+# Start containers
+docker-compose up -d
 ```
