@@ -94,9 +94,9 @@ INSERT INTO `wp_users`
 
 - Save the file as `wp_dump_new.sql` and place it in your `tna-wp-dev` folder.
 - Go to `tna-wp-dev` in your terminal. Make sure your container is running. 
-- Run docker -ps a and memorise the first four characters of the `mariadb` container ID.
+- Run docker ps -a and memorise the first four characters of the `mariadb` container ID.
 - Run `cat wp_dump_new.sql | docker exec -i {id} /usr/bin/mysql -u root --password=password wordpress`, replacing `{id}` with the first four characters of your mariadb ID.
 - Clone the tna theme in `wp-content\themes`.
 - Login to wp-admin with username `admin`, password `admin`.
 - Go to the plugins page, and install `Advanced Custom Fields`.
-- Go to the settings > permalinks, and click `Save Changes`.
+- Go to Settings > Permalinks, and click `Save Changes`.
