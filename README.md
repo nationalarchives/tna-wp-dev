@@ -99,3 +99,4 @@ INSERT INTO `wp_users`
 - Clone the tna theme in `wp-content\themes`.
 - Login to wp-admin with username `admin`, password `admin`.
 - Go to the plugins page, and install `Advanced Custom Fields`.
+- Go to the settings > permalinks, and click `Save Changes`.
